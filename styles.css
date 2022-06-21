@@ -1,0 +1,98 @@
+/*
+Hues Selection
+
+Elements
+background #232946
+Headline #fffffe
+Paragraph #b8c1ec
+Buttohn ##eebbc3
+Button Text #232946
+
+
+Illustration
+Stroke #121629
+Main #b8c1ec
+Highlight #eebbc3
+Secondary #fffffe
+Tertiary #eebbc3 */
+
+#profilepic {
+  border-radius: 50%;
+  width: 150px;
+}
+
+h1,h2,h3 {
+  color: #fffffe;
+}
+
+h1 {
+  font-size: 250%;
+}
+
+body {
+  background-color: #232946;
+  color: #b8c1ec;
+  font-family: Calibri;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.about {
+  margin-top: 0px;
+}
+
+.experience {
+}
+
+.skills {
+}
+
+.jobtitle {
+  color: #fffffe;
+  font-size: 150%;
+  font-style: italic;
+}
+
+.joblocation{
+  vertical-align: right;
+}
+
+.skillsbutton{
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1rem;
+  padding: .3rem .7rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+.button-40:hover {
+  background-color: #374151;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
+}
