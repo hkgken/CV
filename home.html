@@ -4,24 +4,46 @@
     <meta charset="utf-8">
     <title>Ken Lee's CV</title>
     <link rel="stylesheet" href="styles.css">
-    <table>
-      <tr>
-        <th rowspan =2>
-          <img id="profilepic" src="https://media-exp2.licdn.com/dms/image/C5103AQH0PNhY-rpnWg/profile-displayphoto-shrink_800_800/0/1541163308254?e=1661385600&v=beta&t=5ZtQj7G2p17oVrVMBZjnge5NCpVhTLw4CCH77IJ3xH4" alt="">
-        </th>
-        <td style="position:relative ; left:50px"><h1>Ken Lee</h1>
-            <b><h3>Human Rights Activist; Web Developer; British Hong Konger</h3></b>
-        </td>
-      </tr>
-    </table>
+    <link rel="stylesheet" href="sidebar.css">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
 
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
   </head>
   <body>
+
+<div id="main">
+  <table>
+    <tr>
+      <th rowspan =2>
+        <img id="profilepic" src="https://media-exp2.licdn.com/dms/image/C5103AQH0PNhY-rpnWg/profile-displayphoto-shrink_800_800/0/1541163308254?e=1661385600&v=beta&t=5ZtQj7G2p17oVrVMBZjnge5NCpVhTLw4CCH77IJ3xH4" alt="">
+      </th>
+      <td style="position:relative ; left:50px"><h1>Ken Lee</h1>
+          <b><h3>Human Rights Activist; Web Developer; British Hong Konger</h3></b>
+      </td>
+    </tr>
+  </table>
     <div class="about">
       <h2>About</h2>
-      <p>Experienced in the entertainment industry. Skilled in Microsoft Excel, Government, Microsoft PowerPoint, Public Speaking, and Microsoft Office. Strong administrative professional with a Bachelor's degree focused on International Relations and Affairs from the University of Essex. </p>
+      <!-- PLACEHOLDER -->
+      <p>THIS IS A PLACEHOLDER!!!Experienced in the entertainment industry. Skilled in Microsoft Excel, Government, Microsoft PowerPoint, Public Speaking, and Microsoft Office. Strong administrative professional with a Bachelor's degree focused on International Relations and Affairs from the University of Essex. </p>
     </div>
-
+      <!-- PLACEHOLDER -->
     <div class="experience">
       <h2>Experience</h2>
 
@@ -46,10 +68,7 @@
           <button class="skillsbutton" role="button" style="background-color:  #f26a2d;">MemoQ</button>
           <button class="skillsbutton" role="button" style="background-color:  #7338b7;">Helix ALM</button>
           <button class="skillsbutton" role="button" style="background-color:  #0a3352;">TestRail</button>
-
-
-
-      <br><br>
+  <br><br>
         <table>
           <tr>
             <td class="jobtitle">Testronic | Chinese LQA Tester</td>
@@ -76,6 +95,8 @@
 
     <div class="Skills">
       <h2>Skills</h2>
+      <p>PLACEHOLDER PLACEHOLDER PLACEHOLDER</p>
     </div>
+  </div>
   </body>
 </html>

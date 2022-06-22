@@ -16,6 +16,8 @@ Highlight #eebbc3
 Secondary #fffffe
 Tertiary #eebbc3 */
 
+
+
 #profilepic {
   border-radius: 50%;
   width: 150px;
@@ -23,6 +25,11 @@ Tertiary #eebbc3 */
 
 h1,h2,h3 {
   color: #fffffe;
+}
+
+table {
+  padding-bottom: 0.7em;
+  position: relative;
 }
 
 h1 {
@@ -39,6 +46,9 @@ body {
 
 .about {
   margin-top: 0px;
+  width: 900px;
+  word-wrap: break-word;
+
 }
 
 .experience {
