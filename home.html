@@ -12,7 +12,7 @@
       <a href="#">Clients</a>
       <a href="#">Contact</a>
     </div>
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+  <span style="font-size: 60px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
     <script>
     function openNav() {
       document.getElementById("mySidenav").style.width = "250px";
@@ -25,25 +25,33 @@
     }
     </script>
   </head>
-  <body>
 
+
+  <body>
 <div id="main">
   <table>
-    <tr>
       <th rowspan =2>
         <img id="profilepic" src="https://media-exp2.licdn.com/dms/image/C5103AQH0PNhY-rpnWg/profile-displayphoto-shrink_800_800/0/1541163308254?e=1661385600&v=beta&t=5ZtQj7G2p17oVrVMBZjnge5NCpVhTLw4CCH77IJ3xH4" alt="">
       </th>
-      <td style="position:relative ; left:50px"><h1>Ken Lee</h1>
-          <b><h3>Human Rights Activist; Web Developer; British Hong Konger</h3></b>
-      </td>
-    </tr>
+    <td>
+      <span class="myname">
+      <h2>Ken Lee</h2></span>
+      <span class="top_jobtitle">
+        <h3>Human Rights Activist; Web Developer; British Hong Konger</h3>
+      </span>
+    </td>
   </table>
+
     <div class="about">
       <h2>About</h2>
+    <table>
       <!-- PLACEHOLDER -->
-      <p>THIS IS A PLACEHOLDER!!!Experienced in the entertainment industry. Skilled in Microsoft Excel, Government, Microsoft PowerPoint, Public Speaking, and Microsoft Office. Strong administrative professional with a Bachelor's degree focused on International Relations and Affairs from the University of Essex. </p>
+      <tr>
+        <td>
+        <p>THIS IS A PLACEHOLDER!!!Experienced in the entertainment industry. Skilled in Microsoft Excel, Government, Microsoft PowerPoint, Public Speaking, and Microsoft Office. Strong administrative professional with a Bachelor's degree focused on International Relations and Affairs from the University of Essex. </p>
+      </td></tr>
+    </table>
     </div>
-      <!-- PLACEHOLDER -->
     <div class="experience">
       <h2>Experience</h2>
 
@@ -52,7 +60,8 @@
           <td class="jobtitle">SEGA Europe | Chinese LQA Tester</td>
         </tr>
         <tr>
-          <td>Oct 2019 - Jul 2022</td><td class="joblocation">London, United Kingdom</td>
+          <td>Oct 2019 - Jul 2022   <span class="joblocation">London</span></b></td>
+        </tr>
         </tr>
         <tr>
           <td>
@@ -74,7 +83,7 @@
             <td class="jobtitle">Testronic | Chinese LQA Tester</td>
           </tr>
           <tr>
-            <td>Mar 2019 - Oct 2022</td><td class="joblocation">London, United Kingdom</td>
+            <td>Mar 2019 - Oct 2022<span class="joblocation">London</span></td>
           </tr>
           <tr>
             <td>

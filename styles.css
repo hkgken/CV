@@ -19,36 +19,64 @@ Tertiary #eebbc3 */
 
 
 #profilepic {
-  border-radius: 50%;
-  width: 150px;
+  border-radius: 100%;
+  width: 25rem;
 }
 
 h1,h2,h3 {
   color: #fffffe;
 }
 
-table {
-  padding-bottom: 0.7em;
-  position: relative;
+h1 {
+  font-size: 5rem;
 }
 
-h1 {
-  font-size: 250%;
+h2 {
+  font-size: 4.9rem;
+  margin-bottom: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+  word-break: normal;
+}
+
+li{
+  line-height: 1.45;
+}
+
+table{
+  padding-bottom: 0.7rem;
 }
 
 body {
   background-color: #232946;
   color: #b8c1ec;
   font-family: Calibri;
-  margin-left: 20px;
-  margin-top: 30px;
+  /*border-radius: 40rem;*/
+  font-size: 2.2rem;
+/*  margin-left: 20px;
+  margin-top: 30px; */
+  word-wrap: break-word;
 }
 
 .about {
-  margin-top: 0px;
-  width: 900px;
   word-wrap: break-word;
+}
 
+
+.myname h2{
+position:relative;
+left: 50px;
+font-size: 6rem;
+}
+
+.top_jobtitle h3{
+  position:relative;
+  align-content: top;
+  left: 50px;
+  font-weight: 400;
+  padding-top: 0px;
 }
 
 .experience {
@@ -59,26 +87,28 @@ body {
 
 .jobtitle {
   color: #fffffe;
-  font-size: 150%;
+  font-size: 2.6rem;
   font-style: italic;
+  font-weight: bold;
 }
 
 .joblocation{
-  vertical-align: right;
+  font-weight: bold;
+  margin-left: 50px;
 }
 
 .skillsbutton{
   border: 1px solid transparent;
-  border-radius: .75rem;
+  border-radius: 1rem;
   box-sizing: border-box;
   color: #FFFFFF;
   cursor: pointer;
   flex: 0 0 auto;
   font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 600;
-  line-height: 1rem;
-  padding: .3rem .7rem;
+  line-height: 1.5rem;
+  padding: 1.5rem 1.5rem;
   text-align: center;
   text-decoration: none #6B7280 solid;
   text-decoration-thickness: auto;
@@ -97,12 +127,17 @@ body {
 
 .button-40:focus {
   box-shadow: none;
-  outline: 2px solid transparent;
-  outline-offset: 2px;
+  outline: 1rem solid transparent;
+  outline-offset: 1rem;
 }
 
 @media (min-width: 768px) {
   .button-40 {
     padding: .75rem 1.5rem;
   }
+}
+
+
+@media (min-width: 1080px) {
+
 }
